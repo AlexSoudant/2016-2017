@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.22)  14 JAN 2017 18:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.22)  18 JAN 2017 21:54
 entering extended mode
 **proposal.tex
-(G:\MachineLearnig\P3\proposal\proposal.tex
+(G:\MachineLearnig\cloneAlexSoudantML\P3\proposal\proposal.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -385,7 +385,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
-(G:\MachineLearnig\P3\proposal\proposal.aux)
+(G:\MachineLearnig\cloneAlexSoudantML\P3\proposal\proposal.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
@@ -501,8 +501,8 @@ LaTeX Info: Redefining \ref on input line 45.
 LaTeX Info: Redefining \pageref on input line 45.
 LaTeX Info: Redefining \nameref on input line 45.
 
-(G:\MachineLearnig\P3\proposal\proposal.out)
-(G:\MachineLearnig\P3\proposal\proposal.out)
+(G:\MachineLearnig\cloneAlexSoudantML\P3\proposal\proposal.out)
+(G:\MachineLearnig\cloneAlexSoudantML\P3\proposal\proposal.out)
 \@outlinefile=\write3
 
 
@@ -535,11 +535,18 @@ te ignored
                    \relax 
 l.61 \clearpage
                 [1]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
- (G:\MachineLearnig\P3\proposal\proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
+Underfull \hbox (badness 10000) in paragraph at lines 63--73
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
+[2
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+ (G:\MachineLearnig\cloneAlexSoudantML\P3\proposal\proposal.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -547,23 +554,23 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 8810 strings out of 493921
- 130232 string characters out of 3152899
- 227008 words of memory out of 3000000
+ 8811 strings out of 493921
+ 130447 string characters out of 3152899
+ 229008 words of memory out of 3000000
  11979 multiletter control sequences out of 15000+200000
  14025 words of font info for 55 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,7n,38p,955b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,38p,954b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
 <G:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmcsc10.pfb><G:/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmmi12.pfb><G:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proposal.pdf (2 pages, 65793 bytes).
+Output written on proposal.pdf (3 pages, 69320 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 39 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
