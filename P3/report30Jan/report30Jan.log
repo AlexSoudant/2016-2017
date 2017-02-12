@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.22)  29 JAN 2017 19:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.22)  12 FEB 2017 18:35
 entering extended mode
 **report30Jan.tex
-(G:\MachineLearnig\P3\report30Jan\report30Jan.tex
+(G:\MachineLearnig\cloneAlexSoudantML\P3\report30Jan\report30Jan.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -385,7 +385,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
-(G:\MachineLearnig\P3\report30Jan\report30Jan.aux)
+(G:\MachineLearnig\cloneAlexSoudantML\P3\report30Jan\report30Jan.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
@@ -501,8 +501,8 @@ LaTeX Info: Redefining \ref on input line 45.
 LaTeX Info: Redefining \pageref on input line 45.
 LaTeX Info: Redefining \nameref on input line 45.
 
-(G:\MachineLearnig\P3\report30Jan\report30Jan.out)
-(G:\MachineLearnig\P3\report30Jan\report30Jan.out)
+(G:\MachineLearnig\cloneAlexSoudantML\P3\report30Jan\report30Jan.out)
+(G:\MachineLearnig\cloneAlexSoudantML\P3\report30Jan\report30Jan.out)
 \@outlinefile=\write3
 
 
@@ -547,7 +547,8 @@ l.77
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
- (G:\MachineLearnig\P3\report30Jan\report30Jan.aux)
+
+(G:\MachineLearnig\cloneAlexSoudantML\P3\report30Jan\report30Jan.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `report30Jan.out' has not changed.
@@ -561,16 +562,16 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
  8822 strings out of 493921
- 130433 string characters out of 3152899
+ 130642 string characters out of 3152899
  230008 words of memory out of 3000000
  11986 multiletter control sequences out of 15000+200000
  13678 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,7n,38p,1060b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,38p,1042b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
 <G:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmcsc10.pfb><G:/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmmi12.pfb><G:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on report30Jan.pdf (3 pages, 56611 bytes).
+Output written on report30Jan.pdf (3 pages, 56540 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)

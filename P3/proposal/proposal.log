@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.22)  18 JAN 2017 21:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.22)  12 FEB 2017 18:28
 entering extended mode
 **proposal.tex
 (G:\MachineLearnig\cloneAlexSoudantML\P3\proposal\proposal.tex
@@ -559,16 +559,16 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
 Here is how much of TeX's memory you used:
  8811 strings out of 493921
  130447 string characters out of 3152899
- 229008 words of memory out of 3000000
+ 228008 words of memory out of 3000000
  11979 multiletter control sequences out of 15000+200000
  14025 words of font info for 55 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,7n,38p,954b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,38p,972b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
 <G:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmcsc10.pfb><G:/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmmi12.pfb><G:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proposal.pdf (3 pages, 69320 bytes).
+Output written on proposal.pdf (3 pages, 69075 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
