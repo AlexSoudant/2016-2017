@@ -80,8 +80,13 @@ After running the scraper to gather pictures from the website into different adv
 Features of the houses on sale, extracted from the online adverts, were saved into one json file for each advert. Therefore, the first quality check was to assert if all advert folders had a json file and delete folders that did not contained one. Once, I was sure to have in each advert folder, a set of pictures and a json file, the features for every advert were regrouped into a csv file in a table format. Features and pictures were then paired into pickle files following tensorflow tutorial recommandations. After having each picture paired with features, I then checked for prices and house surface equal to zero and removed these data lines before analysis. Adverts with no price indicated seem to match properties that need to be directly negociated by contacting the real estate agency. When no house surface is indicated, a rapid check on the real estate website shows that some adverts concern land properties with no built house on it.     
 \noindent
 Due to the fact that the scraper gather adverts from page 1 of the website to page 30, I expected that adverts from the beginning of the dataset could be of better quality (i.e. attrative prices, more pictures or more attractive features). Therefore, all adverts were first shuffled before segregating them into training and validation sets. The training dataset represents around 1900 paired pictures-features which leaves about 700 paired pictures-features for validation. As I consider these numbers to be still quite low to train deep learning algorithms, no test dataset was built to keep more data for training and validation. 
+\noindent
+Finally, all features were normalized to match a scale between -1 and 1. This is an essential transformation to allow the chosen optimizer to reach a minimum loss when running a graph session.  
+\newline
 
-
+\textbf{Building the Model}
+\newline
+\noindent
 
 
 \end{document}
