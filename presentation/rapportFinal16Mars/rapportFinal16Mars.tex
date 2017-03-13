@@ -77,7 +77,9 @@ To our knowledege, at the time of proposal writing, there was no public dataset 
 \noindent
 After running the scraper to gather pictures from the website into different advert folders in the hard drive, I noticed that some pictures were corrupted. The main consequence in such pictures was that the resolution was pretty poor and uneven thoughout the picture. Therefore, it can be expected that these pictures contain less information than a correctely downloaded picture which can greatly affect the analysis when training the model to predict prices. A easy way to get rid of these images is to read the size of the picture by using opencv library and deleting every picture below a threshold of 9000 octets. 
 \noindent
-crop and resize .....................
+To produce tensors based on image information, the original pictures need to be squared and of a size that will not impair too much computer performance. Therefore, all pictures were fisrt cropped to take only a central square part for analysis and then resized to obtain a resolution of 58 pixels for width and height. As I did not want to introduce color analysis for price estimation, all pictures were also converted to a gray scale which also help reduce picture size and so training speed.
+\noindent
+A last technique used on pictures is to artificially increase their numbers by swapping some pixels between each other and creating different pictures for a computer vision point of vue. To try this technique, I created three copies from the first image of each advert. The first copy have 58 pixels swapped randomly over the whole picture, the second copy is flipped horizontally and finally the last copy have both the 58 pixels randomly shuffled and all pixels flipped over.
 \noindent
 Features of the houses on sale, extracted from the online adverts, were saved into one json file for each advert. Therefore, the first quality check was to assert if all advert folders had a json file and delete folders that did not contained one. Once, I was sure to have in each advert folder, a set of pictures and a json file, the features for every advert were regrouped into a csv file in a table format. Features and pictures were then paired into pickle files following tensorflow tutorial recommandations. After having each picture paired with features, I then checked for prices and house surface equal to zero and removed these data lines before analysis. Adverts with no price indicated seem to match properties that need to be directly negociated by contacting the real estate agency. When no house surface is indicated, a rapid check on the real estate website shows that some adverts concern land properties with no built house on it.     
 \noindent
@@ -89,17 +91,31 @@ Finally, all features were normalized to match a scale between -1 and 1. This is
 \textbf{Building the Graph}
 \newline
 \noindent
-image jiggle
+Building a computational graph for tensorflow is one of the key step to obtain good results. It is also a particulary difficult task and needs to compute sessions many times to observe what layouts are better than others to obtain good validation accuracy. In that purpose, I tried a range of different combinations and evaluated their impact on results. However, it will be noticeable that the tested approaches are far from being a complete overview of potential techniques to improve the validation score and that my calculation of accuracy is not adequate to observe small size improvements over runs with a large amount of steps.     
+\newline
 \noindent
-hidden layer
+One way to potentially improve validation is to train a logistic model instead of a linear model. This can be done by creating classes of prices regrouping many adverts within a similar range of prices. Therefore, we also greatly reduce the number of prediction labels needed to run the graph. To perform this technique, I created ten classes of prices based on quartiles segregation so each classe has a similar number of adverts in it. This particularity permits that the model is trained on the same amount of information regardless of the price classes. 
 \noindent
-logistic regression
+Another well known technique in tensorflow is to increase the depth of the graph by introducing hidden layers with RELU activation in between inputs and outputs. This permits the model to detect finer information as the pictures will go through each layer.
 \noindent
-parallel neurons
+Lastly, I tried to implement parallel neurons on the same hidden layer that will only process either pictures or house features. The resulting tensors are then merged before going through the output layer.
+\newline
 
 \textbf{Tuning the Graph}
 \newline
 \noindent
+learning rate decay
+\noindent
+optimizer adagrad instead of gradient descent
+\noindent
+Size of the hidden layer
+
+
+
+\textbf{Results}
+\newline
+\noindent
+
 
 \textbf{Conclusion}
 \newline
@@ -108,6 +124,8 @@ parallel neurons
 \textbf{Going Further}
 \newline
 \noindent
+convolutions
+deeper layers
 
 
 \end{document}
