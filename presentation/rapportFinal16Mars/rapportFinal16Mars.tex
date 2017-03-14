@@ -104,12 +104,14 @@ Lastly, I tried to implement parallel neurons on the same hidden layer that will
 \textbf{Tuning the Graph}
 \newline
 \noindent
-learning rate decay
+Tuning the model to perform better is another hot topic in deep learning. In the range of techniques that I could use, I triend to change from gradient descent optimizer to other types of optimizers. At the end, I kept adgrad optimizer to carry on analysing but the decrease in loss was not significant enough to justify such a choice.
 \noindent
-optimizer adagrad instead of gradient descent
+Changing the size of the hidden layer is also a possible way of improvement but it is also known to considerably increase running sessions times when it becomes bigger. Therefore, only small scale changes were tried which did not led to significant improvement. 
 \noindent
-Size of the hidden layer
-
+A technique known as the learning rate decay was also tested which involve reducing progressively the learning rate when the loss stay stable for long enough that a small decrease in learning rate can permit an improvement. However, this also means that the loss will decrease slower and slower which increases run times. With a very unstable training accuracy, I preferred to set quite a low learning rate from the beginning. 
+\noindent
+To decrease run times, a good trick is to feed the graph with mini-batches instead of the full training set. However, the integrality of the validation set is kept when evaluating the model score. The size of the mini-batches can influence the score and needs to be assessed. For my computation needs, the mini-batches were set to a size of 40 which kept similar results than without the batch approach.
+\newline
 
 
 \textbf{Results}
@@ -124,8 +126,7 @@ Size of the hidden layer
 \textbf{Going Further}
 \newline
 \noindent
-convolutions
-deeper layers
+I can think of two axis of improvement: Try convolutions over the pictures to evaluate if more information can be extracted to predict prices. The second axis is to build a better graph with a more complex architecture of hidden layers. More data et better computation run time by using gpu instead of cpu calculation would also be a great improvement.
 
 
 \end{document}
