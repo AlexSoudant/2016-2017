@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.22)  15 MAR 2017 22:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.22)  16 MAR 2017 00:09
 entering extended mode
 **rapportFinal16Mars.tex
 
@@ -581,14 +581,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--146
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
 
 (G:\MachineLearnig\cloneAlexSoudantML\presentation\rapportFinal16Mars\rapportFi
 nal16Mars.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `rapportFinal16Mars.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -596,7 +596,7 @@ Package rerunfilecheck Info: File `rapportFinal16Mars.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
  8814 strings out of 493921
@@ -610,7 +610,7 @@ Here is how much of TeX's memory you used:
 /type1/public/amsfonts/cm/cmcsc10.pfb><G:/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmmi12.pfb><G:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on rapportFinal16Mars.pdf (6 pages, 81601 bytes).
+Output written on rapportFinal16Mars.pdf (6 pages, 81700 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
