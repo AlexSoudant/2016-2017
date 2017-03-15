@@ -117,16 +117,48 @@ To decrease run times, a good trick is to feed the graph with mini-batches inste
 \textbf{Results}
 \newline
 \noindent
-
+The first graph tested included only pictures to predict prices and resulted in a maximum of 31.2\% of accuracy in training and 28.6\% in validation. These results shows that a simple linear regression model over the dataset I am using is not enough to predict with confidence housing prices just by using pictures as I first expected. 
+\noindent
+Adding the supplementary pictures from shuffling pixels resulted in accuracies quite close to the linear regression model without this operation: 31.0\% accuracy for training and 29.4\% for validation
+\noindent
+After building a logistic regression graph, the accuracy sharply increased over the training dataset with a maximum of 93.6 \% bu the validation accuracy dropped to 20.1\%. Therefore this model cannot predict accurately prices when pictures outside from training are used.
+\noindent
+To evaluate the potential of including house features in the neural network, I first built a graph with only these features included and the results show a maximum accuracy of 45.2\% on training and 13.1\% on validation. Still validation fails to be satisfactory but it seems that some information can be extracted.
+\noindent
+As this approach looked promising, another way to improve it is to add a hidden layer to the model. The idea behind this type of modelisation is to run at first the model through the training dataset and send a first set of price estimations to a second layer that will try to improve these first results. With this methodology, I could improve the price predictions accuracy to 63.8\% for training and 23.9\% for validation. However, when trying two hidden layers, it did not improve these results: accuracy of 65.9\% for training and 19.0\% for validation.
+\noindent
+When having both pictures and images on the same graph in two different layers, I could reach ... for training and .... for validation. However, these results necessited a huge amount of steps: ....
+\noindent
+Finally, I tried to have pictures and images on the same layer but with two different neurons which led to 93.2\% for training accuracy and 88.6\% for validation with 9 millions steps. However, as said before, the way I calculated the accuracy values does not constitute a good indicator of improvement. It was more obvious when comparing predictions and real prices on a graphic that this method was providing better results than with the others. 
+\newline
 
 \textbf{Conclusion}
 \newline
 \noindent
+I tried to improve the model by different means but it is obvious that using neural networks over such a small amount of data is not adequate. However, I am quite happy of having learn so much in the little time given to build this project. Deep learning becomes a hot trend and applications are becoming easier to develop by enthousiasts. I also see the potential from building more complex computational graphes that seem to improve the results even if they need long run times and a lot of forward thinking.
+\newline
 
 \textbf{Going Further}
 \newline
 \noindent
 I can think of two axis of improvement: Try convolutions over the pictures to evaluate if more information can be extracted to predict prices. The second axis is to build a better graph with a more complex architecture of hidden layers. More data et better computation run time by using gpu instead of cpu calculation would also be a great improvement.
+\newline
+
+\textbf{How to run the project}
+\newline
+\noindent
+First download the data from the dropbox link sent on Slack.
+Then, it is still not in user-friendly shape but the logical order to run the scripts would be the following:
+\newline
+imageTransformation.py : get original images from source file to derived dataset and change them to wanted size.
+\newline
+jsonFileTransfert.py : bring json files from source to derived dataset and delete folders if no json present.
+\newline
+jsonHandler.py : extract the features and prices from the json files in derived dataset and save the results in a csv file.
+\newline
+TensorFlowHousingImages.ipynb : will create the dataset between training and validation with shuffle and pickle files.
+\newline
+all others jupyter notebooks that are analysis based. To ease examination, the csv file and the final pickle file are already included in the repertory.
 
 
 \end{document}
