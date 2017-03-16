@@ -127,7 +127,7 @@ To evaluate the potential of including house features in the neural network, I f
 \noindent
 As this approach looked promising, another way to improve it is to add a hidden layer to the model. The idea behind this type of modelisation is to run at first the model through the training dataset and send a first set of price estimations to a second layer that will try to improve these first results. With this methodology, I could improve the price predictions accuracy to 63.8\% for training and 23.9\% for validation. However, when trying two hidden layers, it did not improve these results: accuracy of 65.9\% for training and 19.0\% for validation.
 \noindent
-When having both pictures and images on the same graph in two different layers, I could reach ... for training and .... for validation. However, these results necessited a huge amount of steps: ....
+When having both pictures and images on the same graph in two different layers, I could reach 74.3\% for training and never reach positive values for validation even with a huge amount of steps: more than 4 millions.
 \noindent
 Finally, I tried to have pictures and images on the same layer but with two different neurons which led to 93.2\% for training accuracy and 88.6\% for validation with 9 millions steps. However, as said before, the way I calculated the accuracy values does not constitute a good indicator of improvement. It was more obvious when comparing predictions and real prices on a graphic that this method was providing better results than with the others. 
 \newline
