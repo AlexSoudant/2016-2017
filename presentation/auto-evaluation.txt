@@ -1,3 +1,9 @@
 Learning tensorflow from scratch was quite difficult even if I was a more advanced student.
 Therefore, I think I made the efforts to keep learning new techniques that needed a huge time
 involvement. I would mark myself between 16 and 18 on 20 points. 
+Oral presentation wa awesome, I really liked it as everyone listened and was excited about
+what I have done.
+Two things to do better:
+I regret the quality of the final report that is not precise enough and lack of
+tables and figures. 
+I also would have liked to produce a fully automatic program that can be run from the console.
